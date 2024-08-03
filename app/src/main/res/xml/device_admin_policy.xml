@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policies>
+        <!-- 화면 잠금 기능 활성화 -->
+        <limit-password />
+        <!-- 장치 잠금 -->
+        <reset-password />
+        <!-- 외부 장치 연결 제한 -->
+        <wipe-data />
+    </uses-policies>
+</device-admin>

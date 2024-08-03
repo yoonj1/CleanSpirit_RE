@@ -1,0 +1,10 @@
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policies>
+        <limit-password />
+        <watch-login />
+        <reset-password />
+        <expire-password />
+        <wipe-data />
+        <lock-screen />
+    </uses-policies>
+</device-admin>

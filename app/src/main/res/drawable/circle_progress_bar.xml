@@ -1,0 +1,23 @@
+<!-- res/drawable/circle_progress_bar.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 배경 링 (흰색) -->
+    <item android:id="@android:id/background">
+        <shape
+            android:shape="ring"
+            android:innerRadiusRatio="2.5"
+            android:thicknessRatio="20"
+            android:useLevel="false">
+            <solid android:color="#FFFFFF"/>
+        </shape>
+    </item>
+    <!-- 진행 상태 링 (초록색) -->
+    <item android:id="@android:id/progress">
+        <shape
+            android:shape="ring"
+            android:innerRadiusRatio="2.5"
+            android:thicknessRatio="15"
+            android:useLevel="true">
+            <solid android:color="#4F9E1D"/>
+        </shape>
+    </item>
+</layer-list>
